@@ -1,0 +1,45 @@
+{
+  "name": "@4lch4/elysiaid",
+  "displayName": "Elysia Aid",
+  "version": "0.0.0",
+  "description": "A collection of utilities for use in an API built w/ the Elysia framework.",
+  "keywords": [ "4lch4" ],
+  "homepage": "https://github.com/4lch4/Elysiaid#README",
+  "bugs": {
+    "email": "bugs@4lch4.email",
+    "url": "https://github.com/4lch4/Elysiaid/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com/4lch4/Elysiaid.git"
+  },
+  "license": "MIT",
+  "author": {
+    "name": "4lch4",
+    "email": "hey@4lch4.email",
+    "url": "https://4lch4.com"
+  },
+  "type": "module",
+  "exports": "./dist/index.js",
+  "main": "./dist/index.js",
+  "types": "./src/index.d.ts",
+  "scripts": {
+    "build": "tsc -p tsconfig.build.json && tsc-alias -p tsconfig.build.json",
+    "pretty": "prettier --write .",
+    "lint": "prettier -c .",
+    "test": "bun test"
+  },
+  "dependencies": {
+    "elysia": "^0.7.25"
+  },
+  "devDependencies": {
+    "@types/node": "^20.9.0",
+    "typescript": "^5.2.2",
+    "tsc-alias": "^1.8.8",
+    "bun-types": "^1.0.11",
+    "prettier": "^3.1.0",
+    "prettier-plugin-organize-imports": "^3.2.4",
+    "prettier-plugin-packagejson": "^2.4.6"
+  },
+  "engines": { "node": ">=20" }
+}
