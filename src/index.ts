@@ -1,6 +1,6 @@
 import { Elysia } from 'elysia'
 
-export const StatusRoutes = (prefix: string) =>
+export const StatusRoutes = (prefix?: string) =>
   new Elysia({ prefix })
     .get('/health', () => 'OK', {
       detail: {
