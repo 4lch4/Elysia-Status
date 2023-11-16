@@ -1,17 +1,17 @@
 {
-  "name": "@4lch4/elysiaid",
-  "displayName": "Elysia Aid",
+  "name": "elysia-status",
+  "displayName": "Elysia Status",
   "version": "0.0.0",
-  "description": "A collection of utilities for use in an API built w/ the Elysia framework.",
+  "description": "A plugin for the Elysia framework that provides status endpoints for the APIs health.",
   "keywords": [ "4lch4" ],
-  "homepage": "https://github.com/4lch4/Elysiaid#README",
+  "homepage": "https://github.com/4lch4/Elysia-Status#README",
   "bugs": {
     "email": "bugs@4lch4.email",
-    "url": "https://github.com/4lch4/Elysiaid/issues"
+    "url": "https://github.com/4lch4/Elysia-Status/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com/4lch4/Elysiaid.git"
+    "url": "git@github.com/4lch4/Elysia-Status.git"
   },
   "license": "MIT",
   "author": {
