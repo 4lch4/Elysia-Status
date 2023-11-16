@@ -1,7 +1,7 @@
 {
   "name": "elysia-status",
   "displayName": "Elysia Status",
-  "version": "0.0.2",
+  "version": "0.1.0",
   "description": "A plugin for the Elysia framework that provides status endpoints for the APIs health.",
   "keywords": [
     "4lch4"
