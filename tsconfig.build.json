@@ -12,7 +12,7 @@
     "removeComments": false,
     "baseUrl": "./src",
     "paths": {
-      "~/*": ["*"],
+      "~/*": ["*"]
     },
 
     "strict": true,
@@ -35,6 +35,6 @@
     "noEmitOnError": true,
     "noImplicitOverride": true,
     "pretty": true,
-    "skipLibCheck": true,
+    "skipLibCheck": true
   }
 }

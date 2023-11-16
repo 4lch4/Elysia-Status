@@ -8,8 +8,8 @@
   ],
   "homepage": "https://github.com/4lch4/Elysia-Status#README",
   "bugs": {
-    "email": "bugs@4lch4.email",
-    "url": "https://github.com/4lch4/Elysia-Status/issues"
+    "url": "https://github.com/4lch4/Elysia-Status/issues",
+    "email": "bugs@4lch4.email"
   },
   "repository": {
     "type": "git",
@@ -30,22 +30,22 @@
   ],
   "scripts": {
     "build": "tsc -p tsconfig.build.json && tsc-alias -p tsconfig.build.json",
-    "pretty": "prettier --write .",
     "lint": "prettier -c .",
-    "test": "bun test",
-    "prepublishOnly": "bun run build"
+    "prepublishOnly": "bun run build",
+    "pretty": "prettier --write .",
+    "test": "bun test"
   },
   "dependencies": {
     "elysia": "^0.7.25"
   },
   "devDependencies": {
     "@types/node": "^20.9.0",
-    "typescript": "^5.2.2",
-    "tsc-alias": "^1.8.8",
     "bun-types": "^1.0.11",
     "prettier": "^3.1.0",
     "prettier-plugin-organize-imports": "^3.2.4",
-    "prettier-plugin-packagejson": "^2.4.6"
+    "prettier-plugin-packagejson": "^2.4.6",
+    "tsc-alias": "^1.8.8",
+    "typescript": "^5.2.2"
   },
   "engines": {
     "node": ">=20"
