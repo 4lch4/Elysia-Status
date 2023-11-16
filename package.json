@@ -32,7 +32,8 @@
     "build": "tsc -p tsconfig.build.json && tsc-alias -p tsconfig.build.json",
     "pretty": "prettier --write .",
     "lint": "prettier -c .",
-    "test": "bun test"
+    "test": "bun test",
+    "prepublishOnly": "bun run build"
   },
   "dependencies": {
     "elysia": "^0.7.25"
